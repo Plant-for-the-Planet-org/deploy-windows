@@ -9,3 +9,6 @@ Try {
 } Catch {
     Write-Error "Failed to rename the computer. Error: $_"
 }
+
+# Add English to List of Windows Language for Keyboard
+Set-WinUserLanguageList de-DE,en-US -Force
