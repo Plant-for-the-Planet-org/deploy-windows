@@ -72,7 +72,7 @@ $softwareOptions = @{
     };
     "Google Enterprise Login" = @{
         Url = "https://files.pp.eco/PlanetGSuiteEnterpriseLoginInstaller.exe";
-        InstallArgs = "/silent";
+        InstallArgs = "/install";
     };
     "Cloudflare WARP" = @{
         Url = "https://files.pp.eco/Cloudflare_WARP_Release-x64.msi";
